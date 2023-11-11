@@ -1,9 +1,8 @@
 #pragma once
 
-#include <memory>
-
 #include "Core.h"
 #include "spdlog/spdlog.h"
+#include "spdlog/fmt/ostr.h"
 
 namespace Lifengine {
 
@@ -21,6 +20,7 @@ namespace Lifengine {
 }
 
 // Core log macros
+//:: in front of identifiers tells compiler to use the following identifiers from global scope
 #define LG_CORE_TRACE(...)		::Lifengine::Log::GetCoreLogger()->trace(__VA_ARGS__)
 #define LG_CORE_INFO(...)		::Lifengine::Log::GetCoreLogger()->info(__VA_ARGS__)
 #define LG_CORE_WARN(...)		::Lifengine::Log::GetCoreLogger()->warn(__VA_ARGS__)

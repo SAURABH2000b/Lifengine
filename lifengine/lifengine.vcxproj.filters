@@ -31,9 +31,16 @@
     <ClInclude Include="src\Lifengine\Events\MouseEvent.h">
       <Filter>Lifengine\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\Lifengine\KeyCodes.h">
+      <Filter>Lifengine</Filter>
+    </ClInclude>
     <ClInclude Include="src\Lifengine\Log.h">
       <Filter>Lifengine</Filter>
     </ClInclude>
+    <ClInclude Include="src\Lifengine\MouseCodes.h">
+      <Filter>Lifengine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lgpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Lifengine\Application.cpp">
@@ -42,5 +49,6 @@
     <ClCompile Include="src\Lifengine\Log.cpp">
       <Filter>Lifengine</Filter>
     </ClCompile>
+    <ClCompile Include="src\lgpch.cpp" />
   </ItemGroup>
 </Project>

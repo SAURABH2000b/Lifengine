@@ -15,6 +15,10 @@ project "Lifengine"
 	
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+
+	-- pchsource will be ignored for targets other than Visual Studio
+	pchheader "lgpch.h"
+	pchsource "Lifengine/src/lgpch.cpp"
 	
 	files {"%{prj.name}/src/**.h", "%{prj.name}/src/**.cpp"}
 	
