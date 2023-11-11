@@ -4,6 +4,9 @@
     <Filter Include="Lifengine">
       <UniqueIdentifier>{56735C0D-C2DD-1084-0B1C-C22977C5EED8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Lifengine\Events">
+      <UniqueIdentifier>{7A4210AA-663B-2FFC-8F6D-14817BC50E08}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Lifengine.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Lifengine\EntryPoint.h">
       <Filter>Lifengine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lifengine\Events\ApplicationEvent.h">
+      <Filter>Lifengine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lifengine\Events\Event.h">
+      <Filter>Lifengine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lifengine\Events\KeyEvent.h">
+      <Filter>Lifengine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Lifengine\Events\MouseEvent.h">
+      <Filter>Lifengine\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Lifengine\Log.h">
       <Filter>Lifengine</Filter>
