@@ -7,6 +7,12 @@
     <Filter Include="Lifengine\Events">
       <UniqueIdentifier>{7A4210AA-663B-2FFC-8F6D-14817BC50E08}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Windows">
+      <UniqueIdentifier>{64FBD71A-50F4-F66C-7926-DCF1657ED678}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Lifengine.h" />
@@ -40,6 +46,12 @@
     <ClInclude Include="src\Lifengine\MouseCodes.h">
       <Filter>Lifengine</Filter>
     </ClInclude>
+    <ClInclude Include="src\Lifengine\Window.h">
+      <Filter>Lifengine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
+      <Filter>Platform\Windows</Filter>
+    </ClInclude>
     <ClInclude Include="src\lgpch.h" />
   </ItemGroup>
   <ItemGroup>
@@ -48,6 +60,9 @@
     </ClCompile>
     <ClCompile Include="src\Lifengine\Log.cpp">
       <Filter>Lifengine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Platform\Windows</Filter>
     </ClCompile>
     <ClCompile Include="src\lgpch.cpp" />
   </ItemGroup>

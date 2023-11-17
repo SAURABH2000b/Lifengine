@@ -27,7 +27,6 @@ namespace Lifengine {
 #define LG_CORE_ERROR(...)		::Lifengine::Log::GetCoreLogger()->error(__VA_ARGS__)
 #define LG_CORE_FATAL(...)		::Lifengine::Log::GetCoreLogger()->fatal(__VA_ARGS__)
 
-
 // Clent log macros
 #define LG_TRACE(...)		    ::Lifengine::Log::GetClientLogger()->trace(__VA_ARGS__)
 #define LG_INFO(...)		    ::Lifengine::Log::GetClientLogger()->info(__VA_ARGS__)

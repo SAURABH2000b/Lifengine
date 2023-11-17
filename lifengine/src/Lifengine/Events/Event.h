@@ -1,5 +1,6 @@
 #pragma once
 
+#include "lgpch.h"
 #include "Lifengine/Core.h"
 
 namespace Lifengine {

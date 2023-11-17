@@ -7,6 +7,13 @@ workspace "Lifengine"
 	configurations {"Debug", "Release", "Dist"}
 	
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
+
+-- Include directories relative to root folder (solution directory)
+IncludeDir = {}
+IncludeDir["GLFW"] = "Lifengine/vendor/GLFW/include"
+
+-- Includes the GLFW's premake5.lua file
+include "Lifengine/vendor/GLFW"
 	
 project "Lifengine"
 	location "Lifengine"
@@ -22,7 +29,10 @@ project "Lifengine"
 	
 	files {"%{prj.name}/src/**.h", "%{prj.name}/src/**.cpp"}
 	
-	includedirs {"%{prj.name}/vendor/spdlog/include", "%{prj.name}/src"}
+	includedirs {"%{prj.name}/src", "%{prj.name}/vendor/spdlog/include", "%{IncludeDir.GLFW}"}
+
+	-- links function takes the names of projects to link to. opengl32.lib is provided by Visual Studio
+	links {"GLFW", "opengl32.lib"}
 	
 	filter "system:windows"
 		cppdialect "C++17"
@@ -35,6 +45,7 @@ project "Lifengine"
 		
 	filter "configurations:Debug"
 		defines "LG_DEBUG"
+		defines "LG_ENABLE_ASSERTS"
 		--symbols "On": this will ask the compiler to generate a pdb file for the project, that consists of debug information
 		symbols "On"
 		

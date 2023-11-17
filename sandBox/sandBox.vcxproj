@@ -138,7 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Lifengine\Lifengine.vcxproj">
-      <Project>{56735C0D-C2DD-1084-0B1C-C22977C5EED8}</Project>
+      <Project>{56735c0d-c2dd-1084-0b1c-c22977c5eed8}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

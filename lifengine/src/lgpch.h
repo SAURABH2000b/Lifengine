@@ -12,6 +12,8 @@
 #include <unordered_map>
 #include <unordered_set>
 
+#include "Lifengine//Log.h"
+
 #ifdef LG_PLATFORM_WINDOWS
 	#include <windows.h>
 #endif
