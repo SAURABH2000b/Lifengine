@@ -55,7 +55,7 @@ namespace Lifengine {
 		float m_XOffset, m_YOffset;
 	};
 
-	class MouseButtonEvent : Event
+	class MouseButtonEvent : public Event
 	{
 	public:
 		MouseCode GetMouseButton() const { return m_Button; }
