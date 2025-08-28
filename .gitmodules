@@ -1,6 +1,0 @@
-[submodule "Lifengine/vendor/spdlog"]
-	path = Lifengine/vendor/spdlog
-	url = https://github.com/gabime/spdlog
-[submodule "Lifengine/vendor/glfw"]
-	path = Lifengine/vendor/glfw
-	url = https://github.com/SAURABH2000b/glfw
