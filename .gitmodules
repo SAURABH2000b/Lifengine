@@ -4,3 +4,4 @@
 [submodule "glfw"]
 	path = Lifengine/vendor/glfw
 	url = https://github.com/SAURABH2000b/glfw.git
+	branch = latest
