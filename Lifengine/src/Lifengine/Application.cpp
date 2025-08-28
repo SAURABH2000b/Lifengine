@@ -24,7 +24,7 @@ namespace Lifengine {
 		EventDispatcher dispatcher(e);
 		dispatcher.Dispatch<WindowCloseEvent>(BIND_EVENT_FN(OnWindowClose));
 
-		LG_CORE_TRACE("{0}", e);
+		LG_CORE_TRACE("{0}", e.ToString());
 	}
 
 	void Application::Run()

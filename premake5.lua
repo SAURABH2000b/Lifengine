@@ -28,6 +28,7 @@ project "Lifengine"
 	pchsource "Lifengine/src/lgpch.cpp"
 	
 	files {"%{prj.name}/src/**.h", "%{prj.name}/src/**.cpp"}
+	buildoptions  { "/utf-8" } 
 	
 	includedirs {"%{prj.name}/src", "%{prj.name}/vendor/spdlog/include", "%{IncludeDir.GLFW}"}
 
@@ -68,6 +69,7 @@ project "Sandbox"
 	files {"%{prj.name}/src/**.h", "%{prj.name}/src/**.cpp"}
 	
 	includedirs {"Lifengine/vendor/spdlog/include", "Lifengine/src"}
+	buildoptions  { "/utf-8" } 
 	
 	links {"Lifengine"}
 	
