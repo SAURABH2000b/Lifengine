@@ -1,6 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [submodule "spdlog"]
+=======
+[submodule "Lifengine/vendor/spdlog"]
+>>>>>>> parent of fad7616 (Signed-off-by: Saurabh Bhurewar <saurabh.bhurewar25@gmail.com>)
 	path = Lifengine/vendor/spdlog
 	url = https://github.com/gabime/spdlog
 [submodule "glfw"]
