@@ -1,4 +1,3 @@
-[submodule "spdlog"]
 [submodule "Lifengine/vendor/spdlog"]
 	path = Lifengine/vendor/spdlog
 	url = https://github.com/gabime/spdlog
