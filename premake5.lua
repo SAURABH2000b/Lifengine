@@ -10,10 +10,10 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 -- Include directories relative to root folder (solution directory)
 IncludeDir = {}
-IncludeDir["GLFW"] = "Lifengine/vendor/GLFW/include"
+IncludeDir["GLFW"] = "Lifengine/vendor/glfw/include"
 
 -- Includes the GLFW's premake5.lua file
-include "Lifengine/vendor/GLFW"
+include "Lifengine/vendor/glfw"
 	
 project "Lifengine"
 	location "Lifengine"
