@@ -1,7 +1,3 @@
 [submodule "spdlog"]
 	path = lifengine/vendor/spdlog
 	url = https://github.com/gabime/spdlog
-[submodule "glfw"]
-	path = lifengine/vendor/glfw
-	url = https://github.com/SAURABH2000b/glfw
-	branch = latest
