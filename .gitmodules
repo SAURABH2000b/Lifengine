@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+=======
+[submodule "spdlog"]
+	path = Lifengine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "glfw"]
+	path = Lifengine/vendor/GLFW
+	url = https://github.com/SAURABH2000b/glfw
+	branch = latest
+>>>>>>> parent of 9776360 (Signed-off-by: Saurabh Bhurewar <saurabh.bhurewar25@gmail.com>)
