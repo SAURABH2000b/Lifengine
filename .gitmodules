@@ -1,14 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 [submodule "spdlog"]
-=======
 [submodule "Lifengine/vendor/spdlog"]
->>>>>>> parent of fad7616 (Signed-off-by: Saurabh Bhurewar <saurabh.bhurewar25@gmail.com>)
 	path = Lifengine/vendor/spdlog
 	url = https://github.com/gabime/spdlog
-[submodule "glfw"]
+[submodule "Lifengine/vendor/glfw"]
 	path = Lifengine/vendor/GLFW
 	url = https://github.com/SAURABH2000b/glfw
-	branch = latest
->>>>>>> parent of 9776360 (Signed-off-by: Saurabh Bhurewar <saurabh.bhurewar25@gmail.com>)
